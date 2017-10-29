@@ -1,0 +1,737 @@
+[ 2017-10-22T03:38:23+13:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.011040s ]
+SQL: SELECT * FROM `bao_setting`  [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.012041s ]
+SQL: SELECT * FROM `bao_city` ORDER BY `orderby` asc  [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `bao_shop_cate` [ RunTime:0.010255s ]
+SQL: SELECT * FROM `bao_shop_cate` ORDER BY `orderby` asc  [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `bao_tuan_cate` [ RunTime:0.009688s ]
+SQL: SELECT * FROM `bao_tuan_cate` ORDER BY `orderby` asc  [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.008723s ]
+SQL: SELECT * FROM `bao_area` ORDER BY `orderby` asc  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.008794s ]
+SQL: SELECT * FROM `bao_business` ORDER BY `orderby` asc  [ RunTime:0.000989s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.008251s ]
+SQL: SELECT * FROM `bao_template`  [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `bao_template_setting` [ RunTime:0.008602s ]
+SQL: SELECT * FROM `bao_template_setting`  [ RunTime:0.000518s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplatesettingModel.class.php 第 12 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Pchome\CommonAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `bao_navigation` [ RunTime:0.009638s ]
+SQL: SELECT * FROM `bao_navigation` WHERE ( `status` = 4 ) AND ( `closed` = 0 ) ORDER BY `orderby` asc  [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `bao_keyword` [ RunTime:0.009558s ]
+SQL: SELECT * FROM `bao_keyword`  [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `bao_goods_cate` [ RunTime:0.010026s ]
+SQL: SELECT * FROM `bao_goods_cate` ORDER BY `orderby` asc  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `bao_life_cate` [ RunTime:0.010404s ]
+SQL: SELECT * FROM `bao_life_cate` ORDER BY `is_hot` desc,`orderby` asc  [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `bao_article_cate` [ RunTime:0.008968s ]
+SQL: SELECT * FROM `bao_article_cate` ORDER BY `orderby` asc  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `bao_housekeeping_cate` [ RunTime:0.009808s ]
+SQL: SELECT * FROM `bao_housekeeping_cate` ORDER BY `orderby` asc  [ RunTime:0.000258s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\CommonModel.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `bao_shop` [ RunTime:0.010356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_shop` LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `bao_coupon` [ RunTime:0.009133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_coupon` LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `bao_users` [ RunTime:0.009329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_users` LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `bao_life` [ RunTime:0.009175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_life` LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `bao_post` [ RunTime:0.009862s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_post` LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `bao_ele` [ RunTime:0.010303s ]
+NOTIC: [2048] Declaration of SeoModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SeoModel.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `bao_seo` [ RunTime:0.009558s ]
+SQL: SELECT * FROM `bao_seo`  [ RunTime:0.000745s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Pchome\CommonAction.class.php 第 190 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [8] Undefined index: headinfo D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 5 行.
+NOTIC: [8] Undefined variable: config D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 6 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, boolean given D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 119 行.
+SQL: SHOW COLUMNS FROM `bao_ad` [ RunTime:0.009266s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=66 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000780s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 203 行.
+NOTIC: [8] Use of undefined constant ding - assumed 'ding' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 265 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 265 行.
+SQL: SELECT * FROM `bao_keyword` ORDER BY key_id desc LIMIT 0,8   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=1 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,5   [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `bao_tuan` [ RunTime:0.009890s ]
+SQL: SELECT * FROM `bao_tuan` WHERE ( audit = 1 AND closed=0 AND city_id=1  ) ORDER BY orderby asc,sold_num desc LIMIT 0,25   [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `bao_goods` [ RunTime:0.009570s ]
+SQL: SELECT * FROM `bao_goods` WHERE ( audit =1 AND closed=0 AND city_id = 1 ) ORDER BY orderby asc,sold_num desc LIMIT 0,8   [ RunTime:0.000735s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=2 AND city_id IN (0,1)  and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: itme D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 578 行.
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=58 AND city_id IN (0,1)  and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000431s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 596 行.
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=69 AND city_id IN (0,1)  and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,3   [ RunTime:0.000422s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 601 行.
+SQL: SELECT * FROM `bao_ele` WHERE ( audit = 1 AND city_id=1  ) ORDER BY orderby asc,sold_num desc LIMIT 0,2   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `shop_id` IN ('38','59') )  [ RunTime:0.000824s ]
+SQL: SELECT * FROM `bao_ele` WHERE ( audit = 1 AND city_id=1  ) ORDER BY orderby asc,sold_num desc LIMIT 2,5   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `shop_id` IN ('124','118') )  [ RunTime:0.000821s ]
+SQL: SELECT * FROM `bao_coupon` WHERE ( audit=1 AND closed=0 AND city_id=1 ) ORDER BY downloads desc,views desc LIMIT 0,5   [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `bao_booking` [ RunTime:0.009250s ]
+SQL: SELECT * FROM `bao_booking` WHERE ( audit = 1 AND closed=0 AND city_id=1 ) ORDER BY orders asc,score desc LIMIT 0,4   [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `bao_shop_ding_setting` [ RunTime:0.009059s ]
+SQL: SHOW COLUMNS FROM `bao_shop_ding_room` [ RunTime:0.009714s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( is_ding=1 AND audit=1 AND closed=0 AND  city_id=1 ) ORDER BY view desc LIMIT 0,3   [ RunTime:0.000948s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=72 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000427s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 728 行.
+SQL: SHOW COLUMNS FROM `bao_activity` [ RunTime:0.008884s ]
+SQL: SELECT * FROM `bao_activity` WHERE ( audit=1 AND closed=0 AND city_id=1 ) ORDER BY activity_id desc LIMIT 0,4   [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `bao_appoint` [ RunTime:0.009115s ]
+SQL: SELECT * FROM `bao_appoint` WHERE ( audit=1 AND closed=0 AND city_id=1 ) ORDER BY appoint_id desc LIMIT 0,8   [ RunTime:0.000317s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 956 行.
+SQL: SHOW COLUMNS FROM `bao_links` [ RunTime:0.008036s ]
+SQL: SELECT * FROM `bao_links` WHERE ( audit=1 AND colsed=0 AND city_id=1 ) ORDER BY orderby asc LIMIT 0,10   [ RunTime:0.000175s ]
+ERR: 1054:Unknown column 'audit' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `bao_links` WHERE ( audit=1 AND colsed=0 AND city_id=1 ) ORDER BY orderby asc LIMIT 0,10  
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 958 行.
+NOTIC: [8] Undefined variable: height_num D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Pchome\5acb473ef99ace45c77c289893111265.php 第 1044 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.217643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-10-22T03:38:24+13:00 ] 127.0.0.1 /attachs/2017/10/12/thumb_59df33527f5a7.jpeg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.008666s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.033000s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `bao_shop_cate` [ RunTime:0.009901s ]
+SQL: SHOW COLUMNS FROM `bao_tuan_cate` [ RunTime:0.009426s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.008763s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.008865s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.008844s ]
+SQL: SHOW COLUMNS FROM `bao_template_setting` [ RunTime:0.009946s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplatesettingModel.class.php 第 12 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Pchome\CommonAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `bao_navigation` [ RunTime:0.017318s ]
+SQL: SELECT * FROM `bao_navigation` WHERE ( `status` = 4 ) AND ( `closed` = 0 ) ORDER BY `orderby` asc  [ RunTime:0.000590s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 223 行.
+ERR: 非法操作:2017
+
+[ 2017-10-22T03:38:24+13:00 ] 127.0.0.1 /attachs/2017/10/12/thumb_59df33527f5a7.jpeg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.083145s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.016608s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `bao_shop_cate` [ RunTime:0.007111s ]
+SQL: SHOW COLUMNS FROM `bao_tuan_cate` [ RunTime:0.008818s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.010195s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.009135s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.008732s ]
+SQL: SHOW COLUMNS FROM `bao_template_setting` [ RunTime:0.015230s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplatesettingModel.class.php 第 12 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Pchome\CommonAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `bao_navigation` [ RunTime:0.010482s ]
+SQL: SELECT * FROM `bao_navigation` WHERE ( `status` = 4 ) AND ( `closed` = 0 ) ORDER BY `orderby` asc  [ RunTime:0.000623s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 223 行.
+ERR: 非法操作:2017
+
+[ 2017-10-22T03:38:32+13:00 ] 127.0.0.1 /mcenter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+
+[ 2017-10-22T03:38:32+13:00 ] 127.0.0.1 /mobile/passport/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-10-22T03:38:52+13:00 ] 127.0.0.1 /mobile/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [2048] Declaration of CommonAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 519 行.
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006960s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.007375s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Constant __HOST__ already defined D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bao_pois_content` [ RunTime:0.010760s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.007079s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.006974s ]
+SQL: SHOW COLUMNS FROM `bao_msg` [ RunTime:0.010493s ]
+SQL: SELECT * FROM `bao_msg` WHERE ( `user_id` IN (0,0) ) LIMIT 0,20   [ RunTime:0.000401s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 317 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `bao_shop` [ RunTime:0.007350s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `user_id` = 0 ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `bao_life_cate` [ RunTime:0.007668s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `city_id` = 1 ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) ORDER BY  (ABS(lng - '174.826000') +  ABS(lat - '-36.895139') ) asc  LIMIT 0,5   [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `bao_article` [ RunTime:0.009468s ]
+SQL: SELECT * FROM `bao_article` WHERE ( `city_id` = 1 ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) ORDER BY `orderby` desc LIMIT 0,5   [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `bao_community` [ RunTime:0.010089s ]
+SQL: SELECT * FROM `bao_community` WHERE ( `city_id` = 1 ) AND ( `closed` = 0 ) ORDER BY  (ABS(lng - '174.826000') +  ABS(lat - '-36.895139') ) asc  LIMIT 0,5   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `bao_tuan` [ RunTime:0.007251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) AND ( `end_date` >= '2017-10-21' ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\IndexAction.class.php 第 35 行.
+SQL: SELECT * FROM `bao_tuan` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) AND ( `end_date` >= '2017-10-21' ) ORDER BY  (ABS(lng - '174.826000') +  ABS(lat - '-36.895139') ) asc  LIMIT 0,10   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `bao_navigation` [ RunTime:0.007370s ]
+SQL: SELECT * FROM `bao_navigation` WHERE ( `status` = 2 ) AND ( `closed` = 0 ) ORDER BY `orderby` asc LIMIT 0,10   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `bao_user_sign` [ RunTime:0.010331s ]
+NOTIC: [2] strtoupper() expects parameter 1 to be string, array given D:\phpStudy\WWW\1stpay\Core\Lib\Core\Db.class.php 第 509 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_user_sign` WHERE ( `user_id` = 0 ) AND ( (`last_time` <= 1508596731) AND (`last_time` >= 1508497200)  ) LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.006823s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php on line 49 and defined D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\phpStudy\WWW\1stpay\Core\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [8] Undefined index: format D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 57 行.
+NOTIC: [8] Undefined index: debug D:\phpStudy\WWW\1stpay\Baocms\Lib\TagLib\TagLibCalldata.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant other - assumed 'other' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 1 行.
+NOTIC: [8] Use of undefined constant wap_index_addr - assumed 'wap_index_addr' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 1 行.
+SQL: SHOW COLUMNS FROM `bao_ad` [ RunTime:0.006985s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=57 AND city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,3   [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant other - assumed 'other' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 246 行.
+NOTIC: [8] Use of undefined constant wap_navigation - assumed 'wap_navigation' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 246 行.
+SQL: SELECT * FROM `bao_article` WHERE ( closed=0 AND audit=1 ) ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.000482s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=73 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000378s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 344 行.
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=74 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000370s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 350 行.
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=75 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000417s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 356 行.
+SQL: SHOW COLUMNS FROM `bao_goods` [ RunTime:0.008183s ]
+SQL: SELECT * FROM `bao_goods` WHERE ( audit =1 AND closed=0 AND city_id = 1 AND end_date >= '2017-10-21' ) ORDER BY orderby asc,sold_num desc LIMIT 0,10   [ RunTime:0.000505s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=62 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=63 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000481s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=64 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `bao_ad` WHERE (  closed=0 AND site_id=65 AND  city_id IN (0,1) and bg_date <= '2017-10-21' AND end_date >= '2017-10-21'  ) ORDER BY orderby asc LIMIT 0,1   [ RunTime:0.000551s ]
+SQL: SELECT * FROM `bao_business` WHERE ( business_id =24 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1   [ RunTime:0.000189s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1  
+SQL: SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1   [ RunTime:0.000175s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1  
+SQL: SELECT * FROM `bao_business` WHERE ( business_id =24 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bao_business` WHERE ( business_id = ) LIMIT 1  
+NOTIC: [8] Use of undefined constant other - assumed 'other' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 707 行.
+NOTIC: [8] Use of undefined constant footer - assumed 'footer' D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 707 行.
+NOTIC: [8] Undefined variable: config D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 766 行.
+NOTIC: [8] Undefined variable: config D:\phpStudy\WWW\1stpay\Baocms\Runtime\Cache\Mobile\5e3137450b1f53b571a6cc836ca37734.php 第 767 行.
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070161s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000746s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-10-22T03:38:52+13:00 ] 127.0.0.1 /attachs/2017/10/12/thumb_59df33527f5a7.jpeg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004693s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.005041s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `bao_shop_cate` [ RunTime:0.009275s ]
+SQL: SHOW COLUMNS FROM `bao_tuan_cate` [ RunTime:0.014966s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.009382s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.008787s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.009312s ]
+SQL: SHOW COLUMNS FROM `bao_template_setting` [ RunTime:0.008592s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplatesettingModel.class.php 第 12 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Pchome\CommonAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `bao_navigation` [ RunTime:0.012286s ]
+SQL: SELECT * FROM `bao_navigation` WHERE ( `status` = 4 ) AND ( `closed` = 0 ) ORDER BY `orderby` asc  [ RunTime:0.000562s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 223 行.
+ERR: 非法操作:2017
+
+[ 2017-10-22T03:38:53+13:00 ] 127.0.0.1 /mobile/life/lifelist/t/1508596731/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2048] Declaration of CommonAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 519 行.
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.020124s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.012821s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Constant __HOST__ already defined D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bao_pois_content` [ RunTime:0.011317s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.011752s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.012816s ]
+SQL: SHOW COLUMNS FROM `bao_msg` [ RunTime:0.010716s ]
+SQL: SELECT * FROM `bao_msg` WHERE ( `user_id` IN (0,0) ) LIMIT 0,20   [ RunTime:0.000422s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 317 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `bao_shop` [ RunTime:0.012496s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `user_id` = 0 ) LIMIT 1   [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `bao_life_cate` [ RunTime:0.011701s ]
+SQL: SHOW COLUMNS FROM `bao_life` [ RunTime:0.009402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_life` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `bao_life` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) ORDER BY  (ABS(lng - '174.765121') +  ABS(lat - '-36.854828') ) asc  LIMIT 0,10   [ RunTime:0.000895s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.008318s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-10-22T03:38:53+13:00 ] 127.0.0.1 /mobile/tuan/push/t/1508596731/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2048] Declaration of CommonAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 519 行.
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with Model::save($data = '', $options = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\SettingModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.009882s ]
+SQL: SHOW COLUMNS FROM `bao_city` [ RunTime:0.013689s ]
+NOTIC: [8] Undefined variable: str D:\phpStudy\WWW\1stpay\Core\Extend\Library\ORG\Crypt\Base64.class.php 第 69 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Constant __HOST__ already defined D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `bao_pois_content` [ RunTime:0.013070s ]
+SQL: SHOW COLUMNS FROM `bao_area` [ RunTime:0.012589s ]
+SQL: SHOW COLUMNS FROM `bao_business` [ RunTime:0.013939s ]
+SQL: SHOW COLUMNS FROM `bao_msg` [ RunTime:0.011892s ]
+SQL: SELECT * FROM `bao_msg` WHERE ( `user_id` IN (0,0) ) LIMIT 0,20   [ RunTime:0.000461s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 317 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given D:\phpStudy\WWW\1stpay\Baocms\Lib\Action\Mobile\CommonAction.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `bao_shop` [ RunTime:0.013207s ]
+SQL: SELECT * FROM `bao_shop` WHERE ( `user_id` = 0 ) LIMIT 1   [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `bao_tuan` [ RunTime:0.010860s ]
+SQL: SHOW COLUMNS FROM `bao_tuan_cate` [ RunTime:0.012075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('1','124','21','14','24','8','20','23','6','5','7','9','22','3','4','13','10','11','18','12') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('42') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('124') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('141') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('58') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('159') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('125') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('172') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('145') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('75') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('43') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('147') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('37','125','126','127','128','129','86','81','79','84','80','82','85','88','83','87','130','131','132','133','134','135','136','89') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('74') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('55') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('142') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('21') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('126') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('173') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('160') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('146') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('38','145','147','146','148','196','149','150','151','152','153','154','155','156','197','157','93','198','90','92','91','158') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('140') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('44') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('127') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('174') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('72') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('68') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('14') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('69') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('128') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('110') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('143') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('73') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('24') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('185') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('52') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('36','75','74','72','73','137','138','76','78') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('148') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('97') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('111') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('70') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('186') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('8') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('34','58','55','52','66','45','62','46','47','63','53','54','59','51','139','67') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000761s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('196') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('129') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('137') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('66') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('187') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('71') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('86') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('98') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('138') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('35','159','160','68','69','70','71','161','162','163','164','165','166','167','168','169','170','171') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('149') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('112') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('20') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('45') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('161') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('188') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('175') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('81') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('150') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('76') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('40','172','173','174','110','111','112','175','176','113','114','177','178','179','180','181','182','183','184','115') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('144') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('23') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('62') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('189') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('6') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('107') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('151') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('176') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('162') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('46') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('39','141','142','140','143','97','98','144','107','94','105','106','95','108','96','100','101','102','103','104') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('94') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('79') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('152') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('163') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('2','42','43','44','185','186','187','188','189','190','191','192','193','194','199','200','195') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('113') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('78') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('5') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('47') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('190') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('84') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('7') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('114') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('164') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('191') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('153') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('63') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('105') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('80') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('165') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('106') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('154') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('177') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('9') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('192') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('82') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('53') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('85') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('22') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('155') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('95') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('166') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('193') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('54') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('178') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('179') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('3') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('194') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('108') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('88') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('59') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('167') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('156') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('197') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('168') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('180') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('4') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('96') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('199') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('51') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('83') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('169') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('13') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('157') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('100') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('101') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('87') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('181') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('10') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('200') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('170') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('102') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('139') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('93') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('130') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('103') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('182') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('11') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('131') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('198') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('183') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('132') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('18') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('90') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('184') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('92') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('133') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('195') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('91') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('67') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('12') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('134') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('171') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('116') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('115') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('104') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('135') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('117') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('158') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('118') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('136') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('119') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('120') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('121') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('122') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('123') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `cate_id` IN ('89') ) AND ( `closed` = 0 ) AND ( `audit` = 1 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bao_tuan` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) AND ( `end_date` >= '2017-10-21' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `bao_tuan` WHERE ( `audit` = 1 ) AND ( `closed` = 0 ) AND ( `city_id` = 1 ) AND ( `end_date` >= '2017-10-21' ) ORDER BY  (ABS(lng - '174.765121') +  ABS(lat - '-36.854828') ) asc  LIMIT 0,10   [ RunTime:0.000612s ]
+NOTIC: [2048] Declaration of TemplateModel::fetchAll() should be compatible with CommonModel::fetchAll($field = '*', $where = Array) D:\phpStudy\WWW\1stpay\Baocms\Lib\Model\TemplateModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `bao_template` [ RunTime:0.008712s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 154 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\phpStudy\WWW\1stpay\Core\Lib\Core\View.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+SQL: SELECT * FROM `bao_business` WHERE ( business_id =24 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `bao_business` WHERE ( business_id =142 ) LIMIT 1   [ RunTime:0.000162s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009897s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+

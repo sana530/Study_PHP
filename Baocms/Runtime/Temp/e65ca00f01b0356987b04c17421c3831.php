@@ -1,0 +1,3 @@
+<?php
+//000000021600a:1:{i:0;a:21:{s:9:"coupon_id";s:1:"1";s:7:"shop_id";s:2:"59";s:7:"cate_id";N;s:7:"city_id";s:1:"1";s:7:"area_id";N;s:11:"business_id";s:1:"0";s:5:"title";s:7:"AA CARD";s:5:"photo";s:34:"2017/08/23/thumb_599cca5114507.png";s:10:"full_price";s:4:"1000";s:12:"reduce_price";s:3:"100";s:8:"discount";N;s:11:"expire_date";s:10:"2017-10-20";s:5:"views";s:1:"8";s:9:"downloads";s:1:"1";s:5:"intro";s:7:"AA CARD";s:5:"audit";s:1:"1";s:3:"num";s:1:"0";s:9:"limit_num";s:1:"1";s:6:"closed";s:1:"0";s:11:"create_time";s:10:"1503447660";s:9:"create_ip";s:15:"203.109.153.182";}}
+?>

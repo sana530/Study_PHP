@@ -1,0 +1,3 @@
+<?php
+//000000000600a:1:{i:0;a:25:{s:10:"appoint_id";s:1:"1";s:7:"cate_id";s:2:"28";s:7:"city_id";s:1:"1";s:7:"area_id";s:1:"1";s:11:"business_id";s:2:"18";s:7:"shop_id";s:2:"96";s:3:"lng";s:11:"174.8233699";s:3:"lat";s:11:"-36.8747978";s:5:"title";s:2:"12";s:5:"intro";s:2:"22";s:5:"price";s:1:"2";s:4:"unit";N;s:6:"gongju";N;s:5:"photo";N;s:5:"thumb";N;s:9:"user_name";N;s:11:"user_mobile";N;s:8:"biz_time";N;s:11:"create_time";s:1:"0";s:8:"end_date";N;s:8:"contents";N;s:9:"yuyue_num";s:1:"0";s:5:"views";s:2:"12";s:5:"audit";s:1:"1";s:6:"closed";s:1:"0";}}
+?>
